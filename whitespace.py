@@ -1,1 +1,3 @@
-print("languages:\n\tPython\n\tC\n\tJavaScript")
+favorite_language = ' python '
+print(favorite_language)
+favorite_language.rstrip()
