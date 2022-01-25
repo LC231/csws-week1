@@ -1,4 +1,5 @@
 locations = ['Iceland','Japan','France','Greece','South Africa']
+
 print(locations)
 print(sorted(locations))
 print(locations)
