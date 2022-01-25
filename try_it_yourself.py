@@ -1,3 +1,5 @@
 name = "luke curran"
-print (name.uppercase())
+print (name.upper())
+print(name.lower())
+print(name.title())
 
