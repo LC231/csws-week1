@@ -1,3 +1,5 @@
-name = "Luke Curran"
-message = f"Hello {name}, would you like to learn some python today?"
-print(message)
+from unicodedata import name
+
+
+name = "luke curran"
+print (name.upper())
