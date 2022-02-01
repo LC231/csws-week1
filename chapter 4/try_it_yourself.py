@@ -1,4 +1,3 @@
-mil = list(range(0,1000001))
-print(min(mil))
-print(max(mil))
-print(sum(mil))
+for odd in range(1,20,2):
+    print(odd)
+
