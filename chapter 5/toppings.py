@@ -8,3 +8,5 @@ if 'extra cheese' in requested_toppings:
        print("Adding extra cheese.")
 
 print("\nFinished making your pizza!")
+
+# dont use any type of if statement as this wouldnt work
