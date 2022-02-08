@@ -8,3 +8,5 @@ else:
     price = 40
 
 print(f"Your admission cost is ${price}.")
+
+# doesnt have to end with an else statement
