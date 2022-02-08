@@ -1,10 +1,11 @@
-usernames = ['name1','name2','name3','name4','admin']
+from hashlib import new
 
-if usernames:
-    for username in usernames:
-        if username == 'admin':
-            print("Hello admin, would you like to see a status report")
-        else:
-            print(f"Hello {username}, thank you for logging in")
-else:
-    print("we need to find more users")
+
+current_users = ['user1','user2','user3','user4','user5']
+new_users = ['new1','new2','new3','user4','user5']
+
+for new_user in new_users:
+    if new_user in current_users:
+        print(f"{new_user} is already being used")
+    else:
+        print(f"{new_user} is available")
