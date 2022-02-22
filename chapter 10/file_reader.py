@@ -1,3 +1,3 @@
-with open('pi_digits.txt','r') as file_object:
+with open('chapter 10/pi_digits.txt',) as file_object:
     contents = file_object.read()
 print(contents)
